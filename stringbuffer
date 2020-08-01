@@ -1,0 +1,253 @@
+
+C:\Users\정민지\Code\201810808>javac -d classes -sourcepath src src\F2C.java
+
+C:\Users\정민지\Code\201810808>java -classpath classes F2C
+
+거북이
+javac -classpath lib\aplu5.jar -d classes -sourcepath src src\TriangleTurtle.java
+
+java -classpath lib\aplu5.jar;classes TriangleTurtle
+
+
+
+
+
+
+
+
+
+
+
+
+* StringBuffer 클래스 생성자
+
+
+
+
+
+
+ StringBuffer 클래스 생성자
+
+설 명
+
+
+StringBuffer()
+
+초기 문자열이 없고 16개의 문자를 저장할 수 있는 버퍼를 가진 객체를 생성한다.
+
+
+StringBuffer(String str)
+
+str의 초기 문자열을 가지고 16개의 문자를 저장할 수 있는 버퍼를 가진 객체를 생성한다.
+
+
+ StringBuffer(int length)
+
+초기 문자열이 없고 length개의 문자를 저장할 수 있는 버퍼를 가진 객체를 생성한다.
+
+
+
+
+
+
+* StringBuffer 클래스의 메소드
+
+
+
+
+
+
+ StringBuffer 클래스 메소드
+
+설 명
+
+
+StringBuffer append(boolean b)
+
+boolean 데이터를 현재 문자열 끝에 추가한다.
+
+
+StringBuffer append(char c)
+
+char 데이터를 현재 문자열 끝에 추가한다.
+
+
+StringBuffer append(char[] str)
+
+문자 배열 데이터를 현재 문자열 끝에 추가한다.
+
+
+StringBuffer append(char[] str, int offset, int len)
+
+문자 배열의 offset부터 len개의 데이터를 현재 문자열 끝에 추가한다.
+
+
+StringBuffer append(double d)
+
+double 데이터를 현재 문자열 끝에 추가한다.
+
+
+StringBuffer append(float f)
+
+float 데이터를 현재 문자열 끝에 추가한다.
+
+
+StringBuffer append(int i)
+
+int 데이터를 현재 문자열 끝에 추가한다.
+
+
+StringBuffer append(long l)
+
+long 데이터를 현재 문자열 끝에 추가한다.
+
+
+StringBuffer append(Object obj)
+
+객체 데이터를 현재 문자열 끝에 추가한다.
+
+
+StringBuffer append(String str)
+
+문자열 데이터를 현재 문자열 끝에 추가한다.
+
+
+StirngBuffer append(StirngBuffer sb)
+
+문자열 데이터를 현재 문자열 끝에 추가한다.
+
+
+int capacity()
+
+현재 문자열의 총 용량이다.
+
+
+char charAt(int index)
+
+index 위치의 문자를 반환한다.
+
+
+StringBuffer delete(int start, int end)
+
+start에서 end까지의 문자열 중에서 삭제한 문자열을 반환한다.
+
+
+StringBuffer deleteCharAt(int index)
+
+index 위치의 문자 중 삭제한 문자열을 반환 한다.
+
+
+int indexOf(String str)
+
+str 문자열의 인덱스 위치를 반환한다.
+
+
+int indexOf(String str, int fromIndex)
+
+특정 위치로부터 시작하여 str 문자열의 인덱스 위치를 반환한다.
+
+
+StringBuffer insert(int offset, boolean b)
+
+offset 위치에 boolean 데이터를 삽입한다.
+
+
+StringBuffer insert(int offset, char c)
+
+offset 위치에 char 데이터를 삽입한다.
+
+
+StringBuffer insert(int offset, char[] str)
+
+offset 위치에 문자 배열 데이터를 삽입한다.
+
+
+StringBuffer insert
+
+(int index, char[] str, int offset, int len)
+
+offset 위치에 문자 배열의 일부 문자 데이터를 삽입한다.
+
+
+StringBuffer insert(int offset, double d)
+
+offset 위치에 double 데이터를 삽입한다.
+
+
+StringBuffer insert(int offset, float f)
+
+offset 위치에 float 데이터를 삽입한다.
+
+
+StringBuffer insert(int offset, int i)
+
+offset 위치에 int 데이터를 삽입한다.
+
+
+StringBuffer insert(int offset, long l)
+
+offset 위치에 long 데이터를 삽입한다.
+
+
+StirngBuffer insert(int offset, String str)
+
+offset 위치에 문자열 데이터를 삽입한다.
+
+
+StringBuffer insert(int offset, Object obj)
+
+offset 위치에 객체 데이터를 삽입한다.
+
+
+int lastIndexOf(String str)
+ str의 최종 인덱스 위치를 반환한다.
+
+int lastIndexOf(String str, int fromIndex)
+
+fromIndex로부터 시작하여 str의 최종 인덱스 위치를 반환한다.
+
+
+int length()
+
+문자열 내의 문자 개수를 반환한다.
+
+
+StringBuffer replace(int start, int end, String str)
+ start에서 end의 문자열을 str 문자열로 대체하여 반환한다.
+
+StringBuffer reverse()
+
+문자열의 역순으로 된 문자열을 반환한다.
+
+
+void setCharAt(int index, char ch)
+
+index 위치의 문자를 ch 문자로 설정한다.
+
+
+void setLength(int newLength)
+ 문자열의 버퍼 크기를 새롭게 설정한다.
+
+String substring(int start)
+
+start 위치로부터의 일부 문자열을 반환한다.
+
+
+String substring(int start, int end)
+
+start에서 end까지의 일부 문자열을 반환한다.
+
+
+String toString()
+
+String으로 변환한다.
+
+
+
+
+
+
+JAVA API DOC : StringBuffer
+
+
+출처: https://hyeonstorage.tistory.com/179 [개발이 하고 싶어요]
